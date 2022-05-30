@@ -1,2 +1,2 @@
 #!/bin/bash
-$PYFILE
+cd /usr/local/bin python3.10 $PYFILE
