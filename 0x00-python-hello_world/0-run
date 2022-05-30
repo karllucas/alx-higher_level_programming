@@ -1,2 +1,2 @@
 #!/bin/bash
-pyhton3 $PYFILE
+python3.10 $PYFILE
