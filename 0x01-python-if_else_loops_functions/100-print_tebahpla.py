@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-for alphabet in reversed(range(97, 123)):
-    print("{:c}".format(alphabet if (alphabet % 2 == 0) else (alphabet - 32)), end='')
+for c in range(ord('z'), ord('a') - 1, -2):
+    print("{:c}{:s}".format(c, chr(c - 33)), end="")
