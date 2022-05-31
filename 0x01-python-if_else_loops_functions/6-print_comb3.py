@@ -4,4 +4,4 @@ for number in range(91):
         if number != 90:
              print("{:02d}, ".format(number), end='')
         else:
-        print("{:02d}".format(number))
+            print("{:02d}".format(number))
