@@ -5,5 +5,3 @@
 class Square:
     """Represent a square."""
     pass
-
-s = Sqaure()
