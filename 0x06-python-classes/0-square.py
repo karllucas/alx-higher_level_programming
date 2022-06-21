@@ -2,5 +2,5 @@
 class Square:
     pass #An empty block
 
-s = Square
+s = Square()
 print(s)
