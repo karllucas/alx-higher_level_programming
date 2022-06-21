@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-class Square:
-    pass # An empty block
+class Square(object):
+    pass
 
 s = Square()
