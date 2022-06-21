@@ -1,4 +1,6 @@
 #!/usr/bin/python3
 class Square:
-    """Represents an empty square."""
-    pass
+    pass # An empty block
+
+    s = Square()
+    print(my_square)
