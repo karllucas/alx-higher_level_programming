@@ -3,4 +3,4 @@ class Square:
     pass # An empty block
 
 s = Square()
-s.__dict__
+print(s)
