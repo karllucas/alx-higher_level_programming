@@ -4,6 +4,12 @@ const myObject = {
   value: 12
 };
 console.log(myObject);
+const incr = myObject => {
+  const increased = myObject.map(object => {
+    return object.value += 1;
+  });
+};
+
 const incr = myObject.map(object => {
   const increased = object.value += 1;
   return increased;
