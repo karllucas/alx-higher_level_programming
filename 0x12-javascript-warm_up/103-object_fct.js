@@ -5,7 +5,8 @@ const myObject = {
 };
 console.log(myObject);
 const incr = myObject.map(object => {
-  return object.value += 1;
+  const increased = object.value += 1;
+  return increased;
 });
 myObject.incr();
 console.log(myObject);
