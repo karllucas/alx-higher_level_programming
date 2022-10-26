@@ -1,3 +1,4 @@
-$.get('https://fourtonfish.com/hellosalut/?lang=fr', function (data) {
-  $('DIV#hello').text(data.hello);
+window.addEventListener('DOMContentLoaded', function () {
+  const header = document.querySelector('HEADER');
+  header.style.color = '#FF0000';
 });
